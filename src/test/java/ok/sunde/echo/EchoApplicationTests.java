@@ -52,7 +52,7 @@ public class EchoApplicationTests {
     }
 
     private String url() {
-        return format("http://localhost:%d/echo/", port);
+        return format("http://localhost:%d/", port);
     }
 
 }
